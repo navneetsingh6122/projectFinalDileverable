@@ -10,7 +10,8 @@ means 2-portions or 4-portions. In 2P all the ingrediants are half the amount of
 prices by just clicking on the buttons. Now user can also click on X button that means if user clicked any recipe and is willing to remove 
 it then if ths button is pressed value/ price will be setted back to zero. when 'CLICK HERE FOR MORE INFO' is clicked the user can see 
 more details about that recipe like ingrediants and there is also a button to go to the back page. all the ingrediants of each recipes 
-are shown as (10/20 g wheat flour)which means number at left side if for 2p while number for right side is for 4P. when clicked on 
+are shown as (10/20 g wheat flour)which means number at left side if for 2p while number for right side is for 4P. Now we have implmented
+menu which conatisn varois opstions like settings and other items , login and signup page is also implmented . when clicked on 
 checkout button user can see all the total amount he/she needs to pay before taxes and after taxes (which has to be done at final
 dileverable). Now user can select the prefered Dilevery method like fast Dilevery , no hurry , etc.At the end user can enter their
 shipping details and then after confirming order order will be placed.
