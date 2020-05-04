@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">ProjectFinalDileverable</string>
+    <string name="cookit">starting</string>
+    <string name="title_activity_recipe1">recipe1Activity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu for this week.</string>
+    <string name="button2_recipe">click here for more info</string>
+    <string name="recipe1_name">Miso Chicken Strips</string>
+    <string name="recipe2_button">click here for more info</string>
+    <string name="recipe2_name">General Tao Tofu</string>
+    <string name="recipe3_name">Niçoise pizza</string>
+    <string name="button3_recipe">Click here for more info</string>
+    <string name="recipe4_name">Rice and Coco Curry</string>
+    <string name="button4_recipe">Click here for more info</string>
+    <string name="logo">COOK IT</string>
+    <string name="recipe1_description">with ramen noodles and vegetables.</string>
+    <string name="recipe2_description">with cashews and green onions.</string>
+    <string name="recipe3_description">with tuna , hard boiled eggs, olives.</string>
+    <string name="recipe4_description">fresh herbs, naan and/or Peanuts.</string>
+    <string name="button_checkout">Place your order</string>
+    <string name="recipe1_2p">2P</string>
+    <string name="recipe1_quantity">0</string>
+    <string name="recipe1_4p">4P</string>
+    <string name="recipe2_2p">2P</string>
+    <string name="recipe2_4p">4P</string>
+    <string name="recipe3_2p">2P</string>
+    <string name="recipe4_4p">4P</string>
+    <string name="recipe2_quantity">0</string>
+    <string name="recipe1">$</string>
+    <string name="recipe2">$</string>
+    <string name="recipe3_quantity">0</string>
+    <string name="recipe3">$</string>
+    <string name="recipe4_2p">2P</string>
+    <string name="recipe3_4p">4P</string>
+    <string name="recipe4_quantity">0</string>
+    <string name="recipe4">$</string>
+
+    <string name="recipe1Name">Miso Chicken Strips</string>
+    <string name="cook_it">COOK IT</string>
+    <string name="recipe1Description">Try the delicious bowl of chicken noodles with miso and soy sauce. With bell pepper, peanuts, ginger and cilantro, it\'s a fresh and tasty dish.</string>
+    <string name="allergens1">Allergens: Wheat, Soy, Peanut, Gluten, Fish, Egg</string>
+    <string name="ingrediaents1">Ingrediants:-</string>
+    <string name="rec1_ing1">-2/4 Chicken Breasts</string>
+    <string name="rec1_ing2">-1/2 Garlic Clove(s)</string>
+    <string name="rec1_ing3">-5/10 g Cilantro</string>
+    <string name="rec1_ing4">-1/2 Red Bell Pepper(s)</string>
+    <string name="rec1_ing5">-2/4 Carrot(s)</string>
+    <string name="rec1_ing6">-8/16 g Ginger</string>
+    <string name="rec1_ing7">-150/300 g Noodles, Chinese</string>
+    <string name="rec1_ing8">-30/60 ml Soy Sauce</string>
+    <string name="recipe1_backButton">Back</string>
+    <string name="todo">TODO</string>
+    <string name="recipe2Name">General Tao Tofu</string>
+    <string name="cook_it2">COOK IT</string>
+    <string name="recipe2_Description">A good asian classic, the General Tao. Try our version with crispy tofu cubes on rice with carrot, green onion and cashews.</string>
+    <string name="allergens2">Allergens: Wheat, Sulphite, Soy, Nut, Gluten, Sesame</string>
+    <string name="rec2_ing1">Ingrediants:-</string>
+    <string name="rec2_ing2">-225/450 g Tofu</string>
+    <string name="rec2_ing3">-1/2 Garlic Clove(s)</string>
+    <string name="rec2_ing4">-1/2 carrot(s)</string>
+    <string name="rec2_ing5">-8/16 g Ginger</string>
+    <string name="rec2_ing6">-40/80 g Cashews</string>
+    <string name="rec2_ing7">-2/4 tbsp Cornstarch</string>
+    <string name="rec2_ing8">-3/4|1 1/2 cup(s) Basmati Rice</string>
+    <string name="rec2_ing9">-240 ml General Tao Sauce(s)</string>
+    <string name="rec2_back">Back</string>
+    <string name="recipe3Name">Niçoise pizza</string>
+    <string name="cookit3">COOK IT</string>
+    <string name="recipe3Description">We all know the Nicoise tuna salad so we got creative and put it on a pizza dough. With hard-boiled eggs, olives, arugula, green beans, feta and tomatoes, you will find this salad on pizza surprising and tasty.</string>
+    <string name="alergens3">Allergens: Wheat, Soy, Gluten, Fish, Egg, Dairy</string>
+    <string name="ingred3">Ingrediants:-</string>
+    <string name="rec3_ing1">-2/4 Hard-Boiled Egg(s)</string>
+    <string name="rec3_ing2">-2/4 Pizza Dough</string>
+    <string name="rec3_ing3">- 25/50 g Arugula</string>
+    <string name="rec3_ing4">-120/240 g Green Beans</string>
+    <string name="rec3_ing5">-1/2 French Shallot(s)</string>
+    <string name="rec3_ing6">-2/4 tbsp Kalamata Olives</string>
+    <string name="rec3_ing7">-198/396 g Tuna (in water)</string>
+    <string name="rec3_ing8">-240 ml General Tao Sauce(s)</string>
+    <string name="recipe3_back">Back</string>
+    <string name="recipe4Name">Rice and Coco Curry</string>
+    <string name="cookit4">COOK IT</string>
+    <string name="recipe4Description">Our coco veggie curry is a new classic that will instantly turn into a crowd-pleaser! Made with a mix of zucchinis, onions, carrots, sweet potatoes and peppers, it\'s never been easier to have your daily vegetable intake!</string>
+    <string name="alergens4">Allergens: Wheat, Sulphite, Sesame</string>
+    <string name="ingre4">Ingrediants:-</string>
+    <string name="rec4_ing1">-1/2 tbsp Black Sesame Seeds</string>
+    <string name="rec4_ing2">-1/2 Carrot(s)</string>
+    <string name="rec4_ing3">-199/398 ml Chickpeas</string>
+    <string name="rec4_ing4">-330/660 ml Coconut Milk</string>
+    <string name="rec4_ing5">-2/4 tbsp Curry (*)</string>
+    <string name="rec4_ing6">-3/4 cup(s)Jasmine Rice</string>
+    <string name="rec4_ing7">-1/2 Yellow Onion(s)</string>
+    <string name="recipe4_baclk">Back</string>
+    <string name="start_button">Click here to continue to the app</string>
+    <string name="projectStart_button">Click here to continue to app</string>
+    <string name="total">0</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+
+    <string-array name="NameOfRecipe">
+        <item>Miso Chicken Strips</item>
+        <item>General Tao Tofu</item>
+        <item>Nicoise pizza</item>
+        <item>Rice and Coco Curry</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>with ramen noodles and vegetables</item>
+        <item>with cashews and green onions.</item>
+        <item>with tuna, hard boiled eggs, olives.</item>
+        <item>fresh herbs, naan and/or Peanuts.</item>
+    </string-array>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string-array name="chooseDeliveryMethos">
+        <item>No Hurry No Cost</item>
+        <item>Fast Dilevery (+10$)</item>
+        <item>Express Dilevery (+30$)</item>
+
+    </string-array>
+</resources>

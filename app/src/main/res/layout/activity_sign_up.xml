@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="end"
+            android:textColor="@color/blackcolor"
+            android:textSize="15sp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/image"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_face"
+                />
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Create Username"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/blackcolor"
+            android:background="@drawable/btn"
+            />
+
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Enter your Phone"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:inputType="phone"
+            android:textColor="@color/blackcolor"
+            android:background="@drawable/btn"
+            />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Create Password"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/blackcolor"
+            android:background="@drawable/btn"
+            />
+
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Confirm Password"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/blackcolor"
+            android:background="@drawable/btn"
+            />
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender: "
+        android:layout_marginLeft="65sp"
+        android:textSize="20sp"
+        android:gravity="center"
+/>
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Male"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:layout_marginLeft="10dp"/>
+
+
+</RadioGroup>
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
